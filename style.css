@@ -1,0 +1,160 @@
+/* navbar */
+.nav-ul { margin-right: 10%;}
+#logo-img { margin-left: 15%;}
+.nav-ul a { 
+text-decoration: none;
+color: white;
+}
+.nav-ul a:hover {color: rgb(64, 128, 106);}
+.fixed-top {
+background-attachment: fixed;
+}
+.my-class {margin-top: 5rem;}
+
+.main-container {  
+height: 80vh;
+background: linear-gradient(rgba(19, 96, 99, 0.356),rgba(19, 96, 99, 0.356)), url('img/worktable.jpeg');
+background-size:cover;
+background-position: top;
+}
+
+.title { margin-top: 17%;
+color: white;
+font-weight: bold;}
+
+.service-title  { color: rgba(136, 132, 132, 0.623);}
+hr{ 
+    height: 1px;
+    color: red;
+    background-color: red;
+    border: none;
+    width: 20%;
+  }
+
+  .service-row {margin-top: 5rem;} 
+
+  .read-more-btn  {
+background: transparent;
+border: 1px solid white;
+color: white;
+width: 120px;}
+
+.box-box { background-color: #0CB8B6 ;
+color: white; 
+padding: 5%;
+border: 1px solid white;}
+
+.box-box p { font-size: 12px;}
+
+
+.inner-seccond { background-color: rgba(207, 199, 199, 0.561); 
+padding: 5%;}
+
+.bg-black  {
+background-color: #29302E ;
+color: white;
+height: 30vh;
+padding: 5%;} 
+
+.info-ul  li { margin-top: 4%;}
+.footer {
+ background-color: #325C6A;
+color: white; 
+padding: 5%;}
+
+.footer a { color: white;}
+.footer a:hover { color: white;}
+
+.social-media li { 
+    display: inline-block;
+    margin-right: 5%;
+    font-size: 35px;
+}
+
+.social-media li:hover {color: red;}
+
+
+/* togle */
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #b63e3e;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+#togle-span {display: none;}
+
+.doctor-card {  
+  width: 15rem;
+}
+
+
+@media only screen and (max-width: 769px) {
+  .fixed-top { 
+    display: none !important;
+    }
+    #togle-span {
+    display: block;
+    margin-right: 2%;}
+    
+  .doctor-card {
+    margin-bottom:3%;}
+
+  .doctor-card { width: 10rem}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+@media only screen and (max-width: 426px) { 
+  .doctor-card { margin-left: 25%;}
+ 
+ }
+
+@media only screen and (max-width: 376px) { 
+ .doctor-card { margin-left: 25%;}
+
+}
+
+
+@media only screen and (max-width: 320px) { 
+.doctor-card { margin-left :21%;}
+}
